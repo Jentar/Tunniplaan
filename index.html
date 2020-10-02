@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tunniplaan</title>
+</head>
+
+<body>
+    <div class="background">
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <input type="text" id="fname" name="fname" placeholder="Otsi...">
+            <div class="checkbox-container">
+                <label class="cb-label">arvutiklass
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="cb-label">vabad klassid
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class="selection-container">
+                <button class="select" id="menuitem" onClick="parent.location='timetable.html'">TA-19</button>
+                <button class="select" id="menuitem" onClick="parent.location='timetable.html'">TA-20</button>
+                <button class="select" id="menuitem" onClick="parent.location='timetable.html'">TAK-18</button>
+                <button class="select" id="menuitem" onClick="parent.location='timetable.html'">TAK-19</button>
+                <button class="select" id="menuitem" onClick="parent.location='timetable.html'">TAK-20</button>
+            </div>
+        </div>
+
+
+        <div class="languages">
+            <svg xmlns="http://www.w3.org/2000/svg" class="flag" viewBox="0 0 33 21">
+                <rect fill="#FFF" width="33" height="21" />
+                <rect width="33" height="14" />
+                <rect fill="#0072ce" width="33" height="7" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="flag" viewBox="0 0 9 6">
+                <rect fill="#fff" width="9" height="3" />
+                <rect fill="#d52b1e" y="3" width="9" height="3" />
+                <rect fill="#0039a6" y="2" width="9" height="2" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="flag" viewBox="0 0 60 30">
+                <clipPath id="s">
+                    <path d="M0,0 v30 h60 v-30 z" />
+                </clipPath>
+                <clipPath id="t">
+                    <path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z" />
+                </clipPath>
+                <g clip-path="url(#s)">
+                    <path d="M0,0 v30 h60 v-30 z" fill="#012169" />
+                    <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6" />
+                    <path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#t)" stroke="#C8102E" stroke-width="4" />
+                    <path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10" />
+                    <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6" />
+                </g>
+            </svg>
+
+        </div>
+        <div class="logo">
+            <img src="img/logo.jpg">
+        </div>
+        <div class="menu">
+            <button class="menu-item" onclick="openNav()">Rühmad</button>
+            <button class="menu-item" onclick="openNav()">Õpetajad</button>
+            <button class="menu-item" onclick="openNav()">Klassiruumid</button>
+            <button class="menu-item" onclick="openNav()">Lemmikud</button>
+        </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

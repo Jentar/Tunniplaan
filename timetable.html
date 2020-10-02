@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tunniplaan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header-bar">
+        <button class="select back" onClick="parent.location='index.html'">◀</button>
+        <button class="select">TAK-18</button>
+        <div class="date" id="currentDate"></div>
+    </div>
+    <div class="timetable">
+        <div class="time">
+            <div class="visible" id="visible" onclick="visible()">
+                <div class="decoration">
+                    <div class="circle"></div>
+                    <div class="square"></div>
+                </div>
+                <div class="main-info">
+                    <div class="time">
+                        8:30 - 10:00
+                    </div>
+                    <div class="subject" id="subject">
+                        Andmebaasid II
+                    </div>
+                    <div class="teacher" id="teacher">
+                        Andrus Naulainen
+                    </div>
+                </div>
+                <div class="room" id="room">
+                    K-206
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="timetable">
+        <div class="time">
+            <div class="visible">
+                <div class="decoration">
+                    <div class="circle"></div>
+                    <div class="square"></div>
+                </div>
+                <div class="main-info">
+                    <div class="time">
+                        10:15 - 11:45
+                    </div>
+                    <div class="subject">
+                        Matemaatika
+                    </div>
+                    <div class="teacher">
+                        Karin Saare
+                    </div>
+                </div>
+                <div class="room">
+                    Õ-303
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="timetable">
+        <div class="time">
+            <div class="visible">
+                <div class="decoration">
+                    <div class="circle" style='background: #35486F;'></div>
+                    <div class="square"></div>
+                </div>
+                <div class="main-info">
+                    <div class="time">
+                        12:45 - 13:15
+                    </div>
+                    <div class="subject">
+                        Andmebaasid II
+                    </div>
+                    <div class="teacher">
+                        Andrus Naulainen
+                    </div>
+                </div>
+                <div class="room">
+                    K-204
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="timetable">
+        <div class="time">
+            <div class="visible">
+                <div class="decoration">
+                    <div class="circle"></div>
+                    <div class="square"></div>
+                </div>
+                <div class="main-info">
+                    <div class="time">
+                        13:30 - 15:00
+                    </div>
+                    <div class="subject">
+                        Programmeerimine
+                    </div>
+                    <div class="teacher">
+                        Janek Mander
+                    </div>
+                </div>
+                <div class="room">
+                    K-204
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
