@@ -3,11 +3,11 @@
    
 
 **_Liikmed:_**   
-Jennifer Tarvis
-Mare Sepaste
-Joel Pupart
-Joonas Hendrik Peet
-Kaur Luha
+Jennifer Tarvis,
+Mare Sepaste,
+Joel Pupart,
+Joonas Hendrik Peet,
+Kaur Luha,
 Rainis-Ross Tiirik
 
 ## Projekt
