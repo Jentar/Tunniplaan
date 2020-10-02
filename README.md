@@ -1,19 +1,24 @@
 # Tunniplaan
-#Projektipäev, tiim 8
+#### Tiim 8
+  
+**_Project manager:_**   
 
-**Tiimijuht**: Jennifer Tarvis
-
-**Liikmed:**
-Joel Pupart, 
-Joonas Hendrik Peet, 
-Kaur Luha, 
-Mare Sepaste, 
+**_Members:_**   
+Jennifer Tarvis
+Mare Sepaste
+Joel Pupart
+Joonas Hendrik Peet
+Kaur Luha
 Rainis-Ross Tiirik
 
+## Projekt
 ​
-[Figma](https://www.figma.com/file/QegFWhJzta9KLojfA8HF7T/Tunniplaan?node-id=7%3A45)
-​
+Eesmärk oli luua mugav ning lihtne mobiilivaade tunniplaani vaatamiseks.
 
+## Prototype
 ​
+[Figma](https://www.figma.com/file/QegFWhJzta9KLojfA8HF7T/Tunniplaan?node-id=0%3A1)
+​
+## "Leht"
 [Zone](https://ta19pupart.itmajakas.ee/tunniplaan)
 ​
