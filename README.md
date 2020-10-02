@@ -4,10 +4,10 @@
 **Tiimijuht**: Jennifer Tarvis
 
 **Liikmed:**
-Joel Pupart
-Joonas Hendrik Peet
-Kaur Luha
-Mare Sepaste
+Joel Pupart, 
+Joonas Hendrik Peet, 
+Kaur Luha, 
+Mare Sepaste, 
 Rainis-Ross Tiirik
 
 ​
